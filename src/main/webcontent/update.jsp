@@ -17,7 +17,7 @@
 <body>
 	<%
 	String userID = null;
-	System.out.println(request.getParameter("여기냐?"));
+	System.out.println(request.getParameter("여기냐 ?"));
 	if (session.getAttribute("userID") != null) {
 		userID = (String) session.getAttribute("userID");
 
